@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --bs-secondary-color: #29a9fd;
+    --bs-supporting-color: #c85060;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Jost', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #091E3E;
+}
+
+.h2, h2{
+    font-size: calc();
+}
+
+h1{
+    font-size: 3.5rem;
+    color: var(--bs-main-color);
+    
+}
+
+h2{
+    line-height: 4.4rem;
+    font-weight: 500;
+    font-size: 3.4rem;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-body-color);
+    letter-spacing: 0.06rem;
+    line-height: 1.70rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    color: #06A3DA;
+    font-weight: 500;
+    font-size: 4rem;
+    text-decoration: none;
+    letter-spacing: 0.07rem;
+}
+
+li{
+    list-style: none;
+}
+
+button, a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem!important;
+}
+
+.common-title{
+    margin-bottom: 4.2rem;
+}
+
+/* navbar */
+.nav-link{
+    color: var(--bs-dark-color);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: var(--bs-secondary-color) !important;
+}
+
+.navbar-toggler{
+    /* padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3; */
+    background: #fff;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: box-shadow 0.15s ease-in-out;
+
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    padding: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: var(--bs-secondary-color);
+}
+.fa, .fas {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.navbar-light .navbar-brand:focus
+.navbar-light .navbar-brand:hover{
+    color: var(--bs-dark-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+    color: var(--bs-secondary-color);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--bs-dark-color);
+}
+.navbar-light .navbar-nav .nav-link:focus
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--bs-dark-color);
+}
+.w-100{
+    width: 100% !important;
+    height: 100vh;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.zoomIn {
+    animation-name: zoomIn;
+}
+.img_div{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.img_text{
+    top: 30%;
+    position: absolute;
+    right: 70%;
+    
+}
+.img_button{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    
+}
+.img_button:hover{
+    background-color: blue;
+    box-shadow:#1a1d20;
+    cursor: pointer;
+}
+.oral_img{
+    max-width: 25%;
+    max-height: 12%;
+    float: right;
+}
+.oral_img_ii{
+    max-width: 25%;
+    max-height: 15%;
+    float: right;
+}
+@keyframes text{
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.animate_text{
+    animation-name: text ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;}
+.last_button{
+    padding : 10px 20px;
+    cursor: pointer;
+
+}
+.last_button:hover{
+    background-color: orange;
+}
+.button_div{
+    position: relative;
+    z-index: 2;
+}
+
+
+
